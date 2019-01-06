@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/java/CucumberFrameworkExercises/featureFiles/"},
+        features = {"src/test/resources/features/"},
         glue = {"CucumberFrameworkExercises.steps"},
         monochrome = true,
         tags = {},

@@ -9,10 +9,8 @@
         <module name="CucumberFrameworkExercise" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="CucumberFrameworkExercise" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="CucumberFrameworkExercise" target="1.8.0_152-release" />
+    </bytecodeTargetLevel>
   </component>
 </project>
